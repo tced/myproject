@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static%} 
+
+<head> 
+	<title>CS179G Senior Design Project</title>
+
+	<link ref='stylesheet' type = 'text/css' href = "{% static 'css/styles.css' %}">
+</head> 
+
+<body> 
+	{% block content %}
+	  <!--this will be overwritten that defines base.html --> 
+	{% endblock %}
+</body>
+</html>
